@@ -3,8 +3,8 @@ import 'package:http/http.dart' as http;
 
 class WeatherService {
   // API dari openweather
-  static const String _apiKey = 'bb78566203b46c6d0372ed815736fba4';
-  static const String _baseUrl = 'https://api.openweathermap.org/data/2.5';
+  static const String _apiKey = 'enter ur api key here';
+  static const String _baseUrl = 'put ur url here';
 
   Future<Map<String, dynamic>> fetchCurrentWeatherByCoords(
     double lat,
@@ -22,3 +22,4 @@ class WeatherService {
     }
   }
 }
+
